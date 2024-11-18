@@ -76,6 +76,10 @@ The models were evaluated using the following metrics:
 - **Precision, Recall, F1-Score**: Detailed metrics for classification quality.
 - **Confusion Matrices**: Visualized true positives, false positives, true negatives, and false negatives.
 
+Cross-validation was employed to ensure model robustness and prevent overfitting.
+
+---
+
 ## **Conclusions**
 This project demonstrates that full-body radiomic analysis offers significant advantages over lung-segmented approaches in predicting PD-L1 expression in NSCLC patients. Key findings include:
 
@@ -89,10 +93,6 @@ Future work can explore:
 3. **Real-World Deployment**: Adapting the framework for clinical workflows to support personalized oncology care.
 
 The results underline the potential of radiomics and machine learning to transform cancer diagnostics and treatment planning, providing actionable insights for patient care.
-
----
-
-Cross-validation was employed to ensure model robustness and prevent overfitting.
 
 ---
 
