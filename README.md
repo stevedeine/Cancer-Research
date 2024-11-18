@@ -63,7 +63,7 @@ This project investigates the application of radiomics and machine learning tech
 - Full-body imaging consistently outperformed lung-segmented data across all metrics.
 
 ### **Visualizations**
-- **Confusion Matrices**: Available in the `results/` directory.
+- **Confusion Matrices**
 - **Log-Loss Plots**: Demonstrate convergence and validate model performance.
 - **ROC Curves**: Highlight the model’s classification ability.
 
@@ -94,5 +94,4 @@ Cross-validation was employed to ensure model robustness and prevent overfitting
   - Seaborn
 - **Tools**:
   - Jupyter Notebook
-  - PyCharm
   - Git for version control
