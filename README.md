@@ -76,6 +76,22 @@ The models were evaluated using the following metrics:
 - **Precision, Recall, F1-Score**: Detailed metrics for classification quality.
 - **Confusion Matrices**: Visualized true positives, false positives, true negatives, and false negatives.
 
+## **Conclusions**
+This project demonstrates that full-body radiomic analysis offers significant advantages over lung-segmented approaches in predicting PD-L1 expression in NSCLC patients. Key findings include:
+
+- **Superior Predictive Accuracy**: Full-body imaging achieved a 99% accuracy and a 0.998 ROC-AUC, significantly outperforming lung-segmented models.
+- **Clinical Implications**: The inclusion of systemic metabolic data in radiomic analysis provides a holistic view, improving biomarker-based patient stratification for immunotherapy.
+- **Scalability and Automation**: The pipeline integrates feature extraction, model training, and evaluation, offering a scalable and non-invasive alternative to traditional PD-L1 testing.
+
+Future work can explore:
+1. **Integration with Genomic Data**: Combining radiomic features with genomic information could further enhance predictive performance.
+2. **Validation on Larger Datasets**: Testing the pipeline on diverse cohorts can improve generalizability.
+3. **Real-World Deployment**: Adapting the framework for clinical workflows to support personalized oncology care.
+
+The results underline the potential of radiomics and machine learning to transform cancer diagnostics and treatment planning, providing actionable insights for patient care.
+
+---
+
 Cross-validation was employed to ensure model robustness and prevent overfitting.
 
 ---
